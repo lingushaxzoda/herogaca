@@ -1,0 +1,132 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/barlow-v12-latin_latin-ext-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/barlow-v12-latin_latin-ext-700.woff2') format('woff2');
+
+}
+
+/* Dastlabki kodlar */
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", "Arial", "sans-serif";
+    font-size: 18px;
+    line-height: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+ul,
+li,
+p,
+h1,
+h2,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-item {
+    padding: 20px;
+}
+
+.header-a {
+    font-family: "Barlow";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #83888F;
+}
+
+.header-a:hover {
+    text-decoration: underline;
+    color: darkcyan;
+    cursor: pointer;
+}
+
+/* hero */
+
+.hero .container {
+    background-image: url("../img/coffe\(2\).png");
+    width: 1280px;
+    height: 450px;
+    top: 113px;
+    left: 80px
+}
+.div{
+    margin-left: 150px;
+    padding-top: 40px;
+}
+
+.hero-h1 {
+    font-family: "Fraunces 9pt";
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.hero-p {
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FEFCF7;
+}
